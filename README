@@ -1,0 +1,5 @@
+AKKA and Play using Scala
+
+Open akkaRestServer-soapui-project-test.xml using soapUI and run personInfo service.
+Open   scala-akka-play in IntelliJ and right click on Main and run it
+You should see  Success(PersonInfoResponse(1,John,Spicer,male,a@gmail.com,21,24)) in console
