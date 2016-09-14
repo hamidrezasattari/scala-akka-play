@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.1.2",
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
   "org.scalatest" %% "scalatest" % "2.2.4" % "test",
-  "com.typesafe.play" %% "play-ws" % playVersion
-
+  "com.typesafe.play" %% "play-ws" % playVersion,
+  "com.novocode" % "junit-interface" % "0.8" % "test->default"
 )
 

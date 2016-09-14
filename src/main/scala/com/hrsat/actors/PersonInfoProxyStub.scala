@@ -1,4 +1,4 @@
-package com.reactive.actors
+package com.hrsat.actors
 
 import java.util.concurrent.TimeUnit
 
@@ -6,7 +6,7 @@ import akka.actor.ActorLogging
 import akka.event.LoggingReceive
 import akka.pattern._
 import akka.stream.ActorMaterializer
-import com.common.{PersonInfoProxy, PersonInfoRequest, PersonInfoResponse}
+import com.hrsat.{PersonInfoProxy, PersonInfoRequest, PersonInfoResponse}
 import play.api.libs.json.JsValue
 import play.api.libs.ws.WSRequest
 import play.api.libs.ws.ahc.AhcWSClient

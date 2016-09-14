@@ -1,5 +1,23 @@
 AKKA and Play using Scala
 
 Open akkaRestServer-soapui-project-test.xml using soapUI and run personInfo service.
-Open   scala-akka-play in IntelliJ and right click on Main and run it
+To run   scala-akka-play in IntelliJ and right click on Main and run it
 You should see  Success(PersonInfoResponse(1,John,Spicer,male,a@gmail.com,21,24)) in console
+
+To run test case, right click on TestServicesbyScalaTestKit  and run it, or run :
+activator test
+from command prompt and you should see:
+
+
+[info] TestServicesbyScalaTestKit:
+[info] A PersonInfoActor
+[info] - should Forward a message it receives
+[info] ScalaTest
+[info] Run completed in 2 seconds, 330 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+
+

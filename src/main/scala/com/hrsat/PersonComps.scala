@@ -1,4 +1,4 @@
-package com.common
+package com.hrsat
 
 import akka.actor.{Actor, ActorLogging}
 import akka.event.LoggingReceive
